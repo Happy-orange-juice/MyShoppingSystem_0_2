@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Àî×Ú
  */
 public class Menu {
-    MyShoppingSystem_0_2.page page = new page();
+    page page = new page();
     public void showPage(Data data){
         page.show_LoginMenu();
         verify ver = new verify();

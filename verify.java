@@ -30,8 +30,9 @@ public class verify {
         String s2 = scanner.next();
 
         for (int i = 0; i <data.users.size(); i++) {
-                if(data.users.get(i).password.equals(s2));
+            if(data.users.get(i).password.equals(s2)){
                 return true;
+            }
         }
         // 判断用户输入的信息是否和已有的信息一致
         return false;
